@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1 = prompt("Please provide your first number.");
+        var num2 = prompt("Please provide your second number.");
+        var result = prompt("What kind of operation would you like to do? mul, div, or mod?");
+            if (result === "mul") {
+                console.log(num1*num2);
+            }
+            else if (result === "div") {
+                console.log(num1/num2);
+            }
+            else if (result === "mod") {
+                console.log(num1%num2);
+            }
+            else{
+                console.log("Please print a valid operation.")
+            }
+
+    </script>
+</body>
+</html>
